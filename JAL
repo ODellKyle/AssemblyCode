@@ -1,0 +1,14 @@
+#JAL JUMP AND LINK
+
+main:
+	addi $a0, $0, 4
+	addi $a1, $0, 5
+	jal sum
+	nop
+	j exit
+	
+sum:
+	add $v0, $a0, $a1
+	jr $ra
+	
+exit:
