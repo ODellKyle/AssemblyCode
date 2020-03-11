@@ -1,9 +1,0 @@
-.data
-
-.text
-
-DO:
-	add $s0, $s0, $s1
-	bne $s0, $s2, DO
-	
-EXIT:
